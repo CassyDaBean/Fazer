@@ -1,0 +1,8 @@
+Nocturn is a very heavy wip mod that centers around night time and the 5 main pre-existing biomes: 
+-Corruption
+-Crimson
+-Snow
+-and Jungle
+
+Dev team: 
+Head dev- FazerGamer

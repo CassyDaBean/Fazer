@@ -1,0 +1,4 @@
+author = FazerGamer
+version = 0.1
+displayName = Nocturn
+modReferences = BaseMod
