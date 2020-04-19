@@ -1,18 +1,31 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+//using Nocturn.Buffs;
 using Terraria;
-using Terraria.ID;
 using Terraria.ModLoader;
 
 namespace Nocturn
 {
-    public class NocturnPlayer : ModPlayer
+    public partial class NocturnPlayer : ModPlayer
     {
-		public bool UFOLightPet = false;
-		
-		public override void ResetEffects()
-		{
-			
-			UFOLightPet = false;
-			
-		}
+        #region Summons
+        public bool GigaBab = false;
+
+        #endregion
+
+        public override void ResetEffects()
+        {
+            resetminion();
+        }
+
+        private void resetminion()
+        {
+            GigaBab = false;
+
+        }
+
     }
 }
